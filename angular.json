@@ -28,10 +28,10 @@
             ],
             "styles": [
               "src/styles.css",
-              "ProyectoFinal/node_modules/bootstrap/dist/css/bootstrap.css"
+              "proyectoFinal/node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": [
-              "ProyectoFinal/node_modules/bootstrap/dist/js/bootstrap.js"
+              "proyectoFinal/node_modules/bootstrap/dist/js/bootstrap.js"
             ]
           },
           "configurations": {
@@ -71,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "PF_MA:build:production"
+              "browserTarget": "proyectoFinal:build:production"
             },
             "development": {
-              "browserTarget": "PF_MA:build:development"
+              "browserTarget": "proyectoFinal:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "PF_MA:build"
+            "browserTarget": "proyectoFinal:build"
           }
         },
         "test": {
@@ -105,5 +105,5 @@
       }
     }
   },
-  "defaultProject": "PF_MA"
+  "defaultProject": "proyectoFinal"
 }
