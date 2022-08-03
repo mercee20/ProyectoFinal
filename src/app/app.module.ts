@@ -14,7 +14,6 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HysComponent } from './components/hys/hys.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { SocialComponent } from './components/social/social.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
  
 @NgModule({
@@ -29,7 +28,6 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     HysComponent,
     ProyectoComponent,
     FooterComponent,
-    SocialComponent,
     NavbarComponent,
   ],
   imports: [

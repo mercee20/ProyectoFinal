@@ -5,8 +5,11 @@
 }
 .redes{
     width: 50px;
-    margin-right: 0.5em;
+    display: flex;
+    margin-right: 17.5em;
+    background-color: #90adcb;
 }
+
 #logoAP{
     width: 150px;
 }
@@ -27,7 +30,7 @@ img{
         flex-direction: column;
     }
     .redes{
-        display: flex;
+        display: contents;
         flex-direction: column;
         align-items: center;
     }
